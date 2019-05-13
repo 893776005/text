@@ -1,0 +1,353 @@
+
+div,ul,h1,h2{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+
+
+.logo{
+    width: 1300px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b4b4b4;
+}
+.logo li{
+    float: left;
+    margin-right: 20px;
+}
+.logo a{
+    padding-top: 10px;
+    color: #555564;
+    display: block;
+}
+.logo a:hover{
+    color: #007aff;
+}
+.banner{
+    width: 1200px;
+    margin: 40px auto 60px auto;
+}
+.banner .banner_left{
+    width: 665px;
+    float: left;
+    padding-left: 85px;
+    position: relative;
+}
+
+
+
+
+
+
+.banner .banner_left .left_top{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.banner .banner_left .left_center{
+    float: left;
+    width: 500px;
+}
+.banner .banner_left .left_center ul{
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.banner .banner_left .left_center li{
+    float: left;
+    border: 1px solid #b4b4b4;
+    margin-right: 20px;
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+    cursor: pointer;
+}
+.banner .banner_left .left_center li:hover{
+    border: 2px solid #f60;
+}
+.banner .banner_left .left_center li img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+.box{
+    border: 2px solid;
+    position: absolute;
+    display: none;
+}
+
+
+.banner .banner_left .left_bottom{
+    float: left;
+    width: 500px;
+    margin-left:50px;
+}
+.banner .banner_left .left_bottom li{
+    float: left;
+    padding: 20px 20px 0 0;
+}
+
+
+
+
+
+.banner .banner_right{
+    width: 450px;
+    float: left;
+    margin: 0 auto;
+}
+.banner .banner_right h1{
+    font-size: 25px;
+}
+.banner .banner_right p{
+    color: #f06a00;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.banner .banner_right h2{
+    color: #f06a00;
+    width: 430px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    background: #f2f2f2;
+    margin: 15px 0;
+}
+.banner .banner_right li{
+    float: left;
+}
+.banner .banner_right div{
+    height: 35px;
+}
+.banner .banner_right .num p{
+    color: #9691a7;
+}
+.banner .banner_right .num a{
+     margin: 0 15px 0 30px;
+}
+.banner .banner_right .num span{
+    margin: 0 15px 0 30px;
+}
+
+
+
+
+.banner_right ul li{
+    float: left;
+    margin-right: 20px;
+}
+.banner_right  li a{
+    color: #2c3427;
+    font-size: 13px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+.banner_right .menu{
+    position: relative;
+}
+.banner_right .num .difang{
+    width: 500px;
+    float: left;
+    border: 1px solid #eeeeee;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}
+.banner_right .difang .submenu{
+    width: 460px;
+    display: none;
+    position: absolute;
+    left: 0;
+    border: 1px solid #eeeeee;
+    background: #fff;
+}
+.banner_right .difang .submenu li{
+    width: 130px;
+    line-height: 5px;
+}
+.banner_right .difang .submenu li a{
+    display: block;
+}
+.banner_right .difang .submenu li a:hover{
+    background: deepskyblue;
+}
+.banner_right .num2{
+    width: 450px;
+    margin-top: 20px;
+}
+.banner_right .jiaru{
+    width: 200px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    display: block;
+    color: white;
+    background: #0092d8;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.banner_right .goumai{
+    width: 200px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    display: block;
+    color: white;
+    background: #ff6600;
+    border-radius: 5px;
+}
+
+
+
+
+/*main*/
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    height: 13800px;
+}
+.main .menu{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+.main .menu>li{
+    float: left;
+    margin-right: 60px;
+    position: relative;
+}
+.main .menu>li a{
+    color: #a4929e;
+    display: block;
+    padding: 20px 0;
+}
+.main .menu>li a:hover{
+    color: black;
+}
+.main .box1{
+    width: 790px;
+    position: absolute;
+    left: 180px;
+}
+.main .box1 .submenu img{
+    width: 790px;
+    margin-top: 50px;
+}
+.main .menu .box2{
+    width: 1200px;
+    position: absolute;
+    left: -400px;
+    top: 100px;
+    display: none;
+}
+.main .menu .box2 .left{
+    float: left;
+    width: 200px;
+}
+.main .menu .box2 .left h1{
+    font-size: 22px;
+    padding: 30px;
+}
+.main .menu .box2 .right{
+    width: 800px;
+    float: left;
+}
+.main .menu .box2 .right .star1 h2{
+    color: red;
+    margin-bottom: 15px;
+}
+.main .menu .box2 .right .star2{
+    margin-top: 25px;
+}
+.main .menu .box2 .right .star2 h2{
+    color: red;
+}
+.main .menu .box2 .right .star2 span{
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #ebfcf1;
+    border: 1px solid #23d75f;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    padding: 0 8px;
+    margin: 0 10px 10px 0;
+}
+.main .menu .box2 .right .star2 p{
+    color: #555564;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.main .menu .box2 .right .star3{
+    width: 800px;
+    border-bottom: 1px solid #b4b4b4;
+    padding-bottom: 20px;
+}
+.main .menu .box2 .right .star3_left{
+    float: left;
+}
+.main .menu .box2 .right .star3_right{
+    float: right;
+}
+.main .menu .box2 .right .star3_left p{
+    margin-bottom: 20px;
+}
+.main .menu .box2 .right .star3_left a{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    background: lightsalmon;
+    border: 1px solid #e6e4e5;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+.main .menu .box3{
+    width: 1190px;
+    position: absolute;
+    left: -600px;
+    display: none;
+}
+.main .menu .box4{
+    width: 790px;
+    position: absolute;
+    left: -300px;
+    display: none;
+}
+.main .menu .box4 p{
+    color: #23d75f;
+    font-size: 14px;
+    padding: 50px 0;
+}

@@ -1,0 +1,86 @@
+
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .footer_top{
+    width: 1200px;
+    margin-top: 120px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+.footer .footer_top .menu>li{
+    float: left;
+    margin-right: 77px;
+}
+.footer .footer_top .menu>li>a{
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    color: #796a63;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+}
+.footer .footer_top .menu>li>a:hover{
+    color: red;
+}
+.footer .footer_top .submenu_inner{
+    width: 60px;
+    height: 360px;
+    display: none;
+}
+
+.footer .footer_top .submenu_inner .submenu li{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+}
+.footer .footer_top .submenu_inner .submenu a{
+    line-height: 35px;
+    padding-left: 10px;
+    color: gray;
+    font-size: 11px;
+    display: block;
+}
+.footer .footer_top .submenu_inner .submenu li:hover{
+    background: #ff916a;
+}
+
+.footer .footer_bottom{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .footer_bottom .footer_left{
+    margin-top: 15px;
+    float: left;
+}
+.footer .footer_bottom .footer_left li{
+    float: left;
+    margin-right: 10px;
+}
+.footer .footer_bottom .footer_left a{
+    color: #9f9b9a;
+    font-size: 12px;
+}
+.footer .footer_bottom .footer_left a:hover{
+    color: red;
+}
+.footer .footer_bottom .footer_left p{
+    color: #9f9b9a;
+    font-size: 12px;
+}
+.footer .footer_bottom .footer_left span:hover{
+    color: red;
+}
+.footer .footer_bottom .footer_right{
+    float: right;
+}
+.footer .footer_bottom .footer_right p{
+    color: #9f9b9a;
+    font-size: 12px;
+}
+.footer .footer_bottom .footer_right p:hover{
+    color: red;
+}

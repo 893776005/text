@@ -1,0 +1,224 @@
+
+div,ul,h1,h2{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: #f4f4f4;
+}
+/*ÃÀµÄ¿Õµ÷*/
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+.banner .banner_inner{
+    padding: 15px 0 15px 25px;
+    border-bottom: 1px solid #ededed;
+}
+.banner .banner_inner li{
+    float: left;
+    margin-right: 15px;
+}
+.banner .banner_inner li a{
+    color: #2c3427;
+    font-size: 13px;
+}
+.banner .banner_inner li a:hover{
+    color: #0092d8;
+}
+.banner .banner_inner1{
+    padding-left: 25px;
+    border-bottom: 1px solid #ededed;
+}
+.banner .banner_inner1 ul{
+    overflow: hidden;
+}
+.banner .banner_inner1 li{
+    float: left;
+    margin-right: 60px;
+}
+.banner .banner_inner1 p{
+    color: #9a9899;
+    font-size: 13px;
+    width: 80px;
+}
+.banner .banner_inner1 li a{
+    color: #2c3427;
+    font-size: 13px;
+    padding-top: 13px;
+    display: block;
+}
+.banner .banner_inner1 li a:hover{
+    color: red;
+}
+
+
+.banner .banner_inner2{
+    padding-left: 25px;
+    border-bottom: 1px solid #ededed;
+}
+.banner .banner_inner2 .anniu{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    background: url("../image1/anniu2.jpg") no-repeat left center;
+}
+.banner .banner_inner2 .anniu1{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    background: url("../image1/anniu1.jpg") no-repeat left center;
+}
+
+.banner .banner_inner2 ul{
+    overflow: hidden;
+}
+.banner .banner_inner2 li{
+    float: left;
+    margin-right: 60px;
+    overflow: hidden;
+}
+.banner .banner_inner2 p{
+    color: #9a9899;
+    font-size: 13px;
+    width: 80px;
+}
+.banner .banner_inner2 li a{
+    color: #2c3427;
+    font-size: 13px;
+    padding-top: 13px;
+    display: block;
+    float: left;
+}
+.banner .banner_inner2 li a:hover{
+    color: red;
+}
+
+/*banner_bottom*/
+.banner_bottom{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    background: white;
+}
+.banner_bottom ul li{
+    float: left;
+    margin-right: 20px;
+}
+.banner_bottom  li a{
+    color: #2c3427;
+    font-size: 13px;
+    display: block;
+    padding: 15px 0 15px 25px;
+}
+.banner_bottom ul li img{
+    vertical-align: 3px;
+}
+
+.banner_bottom .jiage{
+    width: 100px;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    display: none;
+    background: white;
+    border: 1px solid #eeeeee;
+}
+.banner_bottom .jiage a{
+    padding: 10px;
+    color: #2c3427;
+    font-size: 13px;
+}
+.banner_bottom .jiage:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.banner_bottom .difang{
+    width: 500px;
+    border: 1px solid #eeeeee;
+    display: none;
+    position: relative;
+}
+.banner_bottom .difang .submenu{
+    width: 499px;
+    display: none;
+    position: absolute;
+    left: 0;
+    border: 1px solid #eeeeee;
+    background: #fff;
+}
+.banner_bottom .difang .submenu li{
+    width: 130px;
+    line-height: 5px;
+}
+.banner_bottom .difang .submenu li a{
+    display: block;
+}
+.banner_bottom .difang .submenu li a:hover{
+    background: deepskyblue;
+}
+
+
+/*main*/
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main .main_inner{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-bottom: 1px dashed #26b3ea;
+}
+.main .main_inner .product{
+    width: 285px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.main .main_inner .product:hover{
+    background: #e0e0e0;
+}
+.main .main_inner .product img{
+    width: 240px;
+    height: 240px;
+    padding: 20px;
+}
+.main .main_inner .product a{
+    color: #382d3e;
+    display: block;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.main .main_inner .product a:hover{
+    color: #007aff;
+    font-size: 16px;
+}
+.main .main_inner .product p{
+    color: #989c9f;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.main .main_inner .product p span{
+    color: #f65d11;
+}
+
