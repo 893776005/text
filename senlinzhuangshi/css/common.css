@@ -1,0 +1,20 @@
+/* 
+* @Author: 83509
+* @Date:   2019-01-02 13:29:26
+* @Last Modified by:   83509
+* @Last Modified time: 2019-01-02 13:37:50
+*/
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.gWidth{
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,149 @@
+/* 
+* @Author: 83509
+* @Date:   2019-01-02 13:29:26
+* @Last Modified by:   83509
+* @Last Modified time: 2019-01-02 15:04:11
+*/
+.head{
+	width: 100%;
+	height: 69px;
+	background-color: #504F4F;
+}
+.head img{
+	float: left;
+}
+.head a {
+	float: right;
+}
+.head span{
+	padding-left: 10px;
+	padding-right: 8px;
+	float: right;
+}
+.nav{
+	margin-top: 23px;
+}
+.nav ul{
+	float: right;
+}
+.nav li{
+	float: left;
+}
+.nav span{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.banner{
+	width: 965px;
+	height: 316px;
+	border: 1px solid #ACACAC;
+	margin-top: 56px;
+	position:relative;
+		overflow:hidden;
+}
+.banner img{
+	width: 100%;
+		height: 100%;
+		vertical-align:middle;
+}
+.banner ul{
+	width: 4825px;
+	height: 316px;
+}
+.banner li {
+	float: left;
+}
+.con_top{
+	width: 967px;
+	height: 285px;
+	border: 1px solid black;
+	margin-top: 23px;
+}
+.con_left{
+	width: 177px;
+	height: 253px;
+		margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+.con_left h3{
+	float: left;
+	margin-bottom: 17px;
+
+}
+.con_left p{
+	font-size: 12px;
+	float: left;
+
+}
+.con_cor {
+	width: 436px;
+	height: 223px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+.con_cor p{
+	font-size: 12px;
+	line-height: 28px;
+	float: left;
+}
+.con_right{
+	width: 242px;
+	height: 251px;
+	float: right;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.con_right h3{
+	float: left;
+	margin-bottom: 17px;
+}
+.con_right p{
+	font-size: 12px;
+	float: left;
+}
+.con_right ul{
+	float: left;
+	font-size: 12px;
+}
+.con_right li{
+	width: 237px;
+	line-height: 30px;
+}
+.con_right span {
+	float: right;
+}
+.con_btm{
+	width: 967px;
+	height: 327px;
+	border: 1px solid black;
+	margin-top: 24px;
+}
+.con_tp h3{
+	float: left;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.con_tp p{
+	float: left;
+	margin-top: 21px;
+}
+.con_bt li{
+	margin-right: 25px;
+	margin-top: 21px;
+	line-height: 25px;
+	float: left;
+}
+.box_1 li{
+	margin-top: 74px;
+	float: left;
+}
+.box_1 span{
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.box_2 li{
+	float: left;
+	padding-right: 25px;
+}
