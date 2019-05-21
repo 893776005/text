@@ -1,6 +1,6 @@
 .topnav{
      position:fixed;
-     z-index:3;
+      z-index: 1;
 }
 .topnav ul{
      position: absolute;
