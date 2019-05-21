@@ -1,6 +1,5 @@
 .topnav{
-     position:fixed;
-      z-index: 1;
+     position:relative
 }
 .topnav ul{
      position: absolute;
