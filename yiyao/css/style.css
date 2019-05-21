@@ -1,5 +1,5 @@
 .topnav{
-     position: relative;
+     position:fixed;
 }
 .topnav ul{
      position: absolute;
